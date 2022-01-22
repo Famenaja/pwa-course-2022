@@ -1,3 +1,3 @@
-function helloworld() {
-  alert("Hello World!");
+function welcome() {
+  alert("Welcome everyone to our chat application.");
 }
