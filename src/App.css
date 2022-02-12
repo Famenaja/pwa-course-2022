@@ -7,23 +7,36 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
-  .App {
-    border: red 5px solid;
-  }
-}
+
 
 .userlist {
   flex: 1;
-  background-color: #331a12;
+  background-color: #44C2EB;
 }
 
 .chat {
   flex: 12;
-  background-color: silver;
+  background-color: #FC999F;
 }
 
 .inputbox {
   flex: 1;
-  background-color: gray;
+  background-color: #FFC039;
+}
+@media screen and (max-width: 768px) {
+  
+  .userlist {
+    flex: 1;
+    background-color: #e3766b;
+  }
+  
+  .chat {
+    flex: 12;
+    background-color: #ffcb3b;
+  }
+  
+  .inputbox {
+    flex: 1;
+    background-color: #2eefff;
+  }
 }
