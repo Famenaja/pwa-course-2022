@@ -1,0 +1,32 @@
+.ProfilePic {
+    background-color: palegreen;
+    width:  80px;
+    height: 80px;
+    border-radius: 50% ;
+    text-align: center;
+}
+
+.list{
+    background-color: rosybrown;
+    width:  140px;
+    height: 20px;
+    text-align: left;
+}
+
+.list-2{
+    background-color: royalblue;
+    
+    
+}
+
+.list-3{
+    background-color: rgb(118, 148, 153);
+   
+    
+}
+
+.friends-page {
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+}
