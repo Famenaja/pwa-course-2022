@@ -13,6 +13,7 @@ function Tabbar () {
       <Link to="/profile" className="tabbutton">
         Profile
       </Link>
+      
     </div>
   )
 }

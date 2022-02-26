@@ -12,7 +12,7 @@ function Chatbox (props) {
             <div>{item.user}</div>
             <Avatar name={item.user}/>
             <div className="chatbox-item-text"> {item.msg}</div>
-          </div>)
+          </div>) 
         })
       }
     </div>
