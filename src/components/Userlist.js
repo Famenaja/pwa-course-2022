@@ -8,9 +8,9 @@ function Userlist () {
     // ex01 filling logic here
     if(trayStatus === "open")
         {
-            setTrayStatus("close");
+            setTrayStatus("closed");
         }
-        if(trayStatus ==="close")
+        if(trayStatus ==="closed")
         {
             setTrayStatus("open");
         }
