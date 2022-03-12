@@ -9,7 +9,8 @@ function Profile() {
   const [name, setName] = useState(authState.user.displayName);
 
   function save() {
-    updateDisplayName(name).then(_=>{
+    updateDisplayName(name)
+    .then(_=>{
       authState.user.reload()
     })
   }

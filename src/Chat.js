@@ -20,11 +20,12 @@ function Chat() {
   ]);
 
   const onMsg = (msg) => {
+    const self = authState.user;
     
     const mappedValue = {
       ...msg,
       key: msg.timestamp || Date.now(),
-      position: msg.user === authState.user.uid ? "right" : "left"
+      position: msg.user === self.uid ? "right" : "left"
     };
     
     setChatData(oldChat => [mappedValue, ...oldChat]);

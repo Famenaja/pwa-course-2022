@@ -6,6 +6,14 @@ function Userlist () {
 
   function onButtonClicked() {
     // ex01 filling logic here
+    if(trayStatus === "open")
+        {
+            setTrayStatus("close");
+        }
+        if(trayStatus ==="close")
+        {
+            setTrayStatus("open");
+        }
   }
 
   return (
